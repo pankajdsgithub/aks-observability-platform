@@ -1,14 +1,11 @@
-# aks-observability-platform
+# AKS Observability Platform
 
-Azure portfolio repository for enterprise architecture, cloud transformation, and platform engineering.
+This repository provides a reference observability baseline for Azure Kubernetes Service using Prometheus, Grafana, Azure Monitor integration, and SRE-friendly alerts.
 
-## Scope
-
-- Azure solution architecture
-- Cloud migration and landing-zone design
-- Platform engineering, GitOps, and Kubernetes
-- Security, governance, and DevSecOps
-
-## Purpose
-
-This repository is intended as a reusable reference and portfolio asset for enterprise Azure delivery.
+```mermaid
+flowchart LR
+    A[AKS Workloads] --> B[Prometheus]
+    B --> C[Grafana]
+    A --> D[Azure Monitor]
+    C --> E[Dashboards and Alerts]
+```

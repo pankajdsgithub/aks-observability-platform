@@ -1,0 +1,3 @@
+serviceMonitorSelector:
+  matchLabels:
+    app: platform
